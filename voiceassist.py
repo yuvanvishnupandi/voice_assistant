@@ -65,5 +65,34 @@ def main():
             speak("I don't understand. Let me search it for you.")
             webbrowser.open(f"https://www.google.com/search?q={query}")
 
-if __name__ == "__main__":
-    main()
+        label_status.config(text="Ready")
+
+# Function to clear the text box
+def clear_text():
+    text_display.delete(1.0, tk.END)
+    label_status.config(text="Ready")
+    
+label = tk.Label(root, text="Voice Assistant", font=("Arial", 20))
+label.pack(pady=20)
+
+label_status = tk.Label(root, text="Ready", font=("Arial", 12))
+label_status.pack()
+
+text_display = tk.Text(root, height=8, width=40)
+text_display.pack(pady=10)
+
+button_listen = tk.Button(root, text="Start Listening", command=take_command, width=20, height=2)
+button_listen.pack(pady=10)
+
+button_stop = tk.Button(root, text="Stop Listening", command=stop_listening, width=20, height=2)
+button_stop.pack(pady=10)
+
+button_clear = tk.Button(root, text="Clear Text", command=clear_text, width=20, height=2)
+button_clear.pack(pady=10)
+
+# Start the initial greeting
+greet()
+
+# Start the GUI loop
+root.mainloop()
+
