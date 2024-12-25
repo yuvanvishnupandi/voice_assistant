@@ -66,8 +66,6 @@ def main():
             webbrowser.open(f"https://www.google.com/search?q={query}")
 
         label_status.config(text="Ready")
-
-# Function to clear the text box
 def clear_text():
     text_display.delete(1.0, tk.END)
     label_status.config(text="Ready")
@@ -90,9 +88,5 @@ button_stop.pack(pady=10)
 button_clear = tk.Button(root, text="Clear Text", command=clear_text, width=20, height=2)
 button_clear.pack(pady=10)
 
-# Start the initial greeting
 greet()
-
-# Start the GUI loop
 root.mainloop()
-
