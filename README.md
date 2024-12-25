@@ -1,25 +1,19 @@
 # Simple Voice Assistant
 
-This is a simple voice assistant built using Python. The assistant is capable of performing a variety of tasks like searching Wikipedia, opening websites, and telling the time.
+Welcome to my simple **Voice Assistant** project. This is a Python-based voice assistant that uses speech recognition to listen to your commands and text-to-speech to talk back to you. It's a fun way to interact with your computer, and I built it to learn more about Python and voice-controlled applications.
 
 ## Features
 
-- **Voice Recognition**: Uses the `speech_recognition` library to listen to user commands.
-- **Text-to-Speech**: Uses the `pyttsx3` library to respond back to the user.
-- **Wikipedia Search**: The assistant can search for information on Wikipedia and speak the summary.
-- **Open Websites**: It can open websites like YouTube, Google, etc.
-- **Tell the Time**: It can tell the current time.
+- Voice Recognition: It listens to your commands and can understand simple phrases like "What's the time?" or "Search for something on Wikipedia."
+- Text-to-Speech: The assistant responds to you by speaking using pyttsx3. It’s like having a conversation with your computer!
+- Wikipedia Search: Want to learn something new? Just ask, and it’ll search Wikipedia for you and read out the summary.
+- Open Websites: Need to open YouTube or Google? Just tell it, and it’ll open those sites for you.
+- Tells Time: Curious about the current time? It’ll tell you in a friendly voice.
 
 ## Libraries Used
-- `pyttsx3` for speech synthesis.
-- `speech_recognition` for voice input.
-- `wikipedia` for searching Wikipedia.
-- `webbrowser` for opening websites.
-- `datetime` for telling the time.
 
-## How to Run
-
-1. Make sure you have Python installed on your computer.
-2. Install the required libraries using pip:
-   ```bash
-   pip install pyttsx3 speechrecognition wikipedia
+- pyttsx3: For converting text to speech. It helps the assistant talk back to you.
+- speech_recognition: To understand your voice commands.
+- wikipedia: It’s used to fetch information from Wikipedia and read it aloud.
+- webbrowser: To open websites for you with a simple voice command.
+- datetime: To get the current time and tell you.
