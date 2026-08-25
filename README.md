@@ -1,4 +1,4 @@
-# Simple Voice Assistant
+# Voice Assistant
 
 Welcome to my simple **Voice Assistant** project. This is a Python-based voice assistant that uses speech recognition to listen to your commands and text-to-speech to talk back to you. It's a fun way to interact with your computer, and I built it to learn more about Python and voice-controlled applications.
 
