@@ -1,6 +1,6 @@
 # Voice Assistant
 
-A simple Python-based voice assistant that listens to voice commands and responds using text-to-speech. It can perform basic tasks such as searching Wikipedia, opening websites, and telling the current time.
+A simple Python-based voice assistant that listens to voice commands and responds using text-to-speech. It can perform basic tasks such as searching Wikipedia, opening websites, and telling the current time. 
 
 ## Features
 
