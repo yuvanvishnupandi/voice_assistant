@@ -1,19 +1,68 @@
 # Voice Assistant
 
- This is a Python-based voice assistant that uses speech recognition to listen to your commands and text-to-speech to talk back to you. It's a fun way to interact with your computer, and I built it to learn more about Python and voice-controlled applications.
+A simple Python-based voice assistant that listens to voice commands and responds using text-to-speech. It can perform basic tasks such as searching Wikipedia, opening websites, and telling the current time.
 
 ## Features
 
-- Voice Recognition: It listens to your commands and can understand simple phrases like "What's the time?" or "Search for something on Wikipedia."
-- Text-to-Speech: The assistant responds to you by speaking using pyttsx3. It’s like having a conversation with your computer!
-- Wikipedia Search: Want to learn something new? Just ask, and it’ll search Wikipedia for you and read out the summary.
-- Open Websites: Need to open YouTube or Google? Just tell it, and it’ll open those sites for you.
-- Tells Time: Curious about the current time? It’ll tell you in a friendly voice.
+* Voice recognition
+* Text-to-speech responses
+* Wikipedia search
+* Open websites using voice commands
+* Get the current time
 
-## Libraries Used
+## Technologies
 
-- pyttsx3: For converting text to speech. It helps the assistant talk back to you.
-- speech_recognition: To understand your voice commands.
-- wikipedia: It’s used to fetch information from Wikipedia and read it aloud.
-- webbrowser: To open websites for you with a simple voice command.
-- datetime: To get the current time and tell you.
+* Python
+* SpeechRecognition
+* pyttsx3
+* Wikipedia API
+* webbrowser
+* datetime
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yuvanvishnupandi/voice_assistant.git
+cd voice_assistant
+```
+
+Install the required libraries:
+
+```bash
+pip install pyttsx3 SpeechRecognition wikipedia
+```
+
+## Usage
+
+Run the application:
+
+```bash
+python maino.py
+```
+
+You can use commands such as:
+
+```text
+What's the time?
+Search for Python on Wikipedia
+Open YouTube
+Open Google
+```
+
+## Project Structure
+
+```text
+voice_assistant/
+├── maino.py
+├── voiceassist.py
+├── index.html
+├── text.txt
+├── LICENSE.md
+└── README.md
+```
+
+## License
+
+This project is licensed under the MIT License.
